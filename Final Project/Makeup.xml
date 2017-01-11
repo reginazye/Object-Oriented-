@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<question text="Do you use it on your face?">
+	<answer useranswer="yes">
+		<question text="Is it a tool for application?">
+			<answer useranswer="yes">
+				<thing>Makeup Brushes</thing>
+			</answer>
+			<answer useranswer="no">
+				<question text="Is it a lip product?">
+					<answer useranswer="yes">
+						<question text="Does it have color?">
+							<answer useranswer="yes">
+								<thing>Lipstick</thing>
+							</answer>
+							<answer useranswre="no">
+								<thing>Chapstick</thing>
+							</answer>
+						</question>
+					</answer>
+					<answer useranswer="no">
+						<question text="Is it for cheeks?">
+							<answer useranswer="yes">
+								<question text="Is it red?">
+									<answer useranswer="yes">
+									<thing>Blush</thing>
+									</answer>
+									<answer useranswer="no">
+										<question text="Is it bright?">
+											<answer useranswer="yes">
+												<thing>Highlighter</thing>
+											</answer>
+											<answer useranswer="no">
+												<thing>Contour</thing>
+											</answer>
+										</question>
+									</answer>
+								</question>
+							</answer>
+							<answer useranswer="no">
+								<question text="Is it full-faced product?">
+									<answer useranswer="yes">
+										<question text="Does it have color?">
+											<answer useranswer="yes">
+												<thing>Foundation</thing>
+											</answer>
+											<answer useranswer="yes">
+												<thing>Setting Powder</thing>
+											</answer>
+										</question>
+									</answer>
+									<answer useranswer="no">
+										<question text="Is it for eyes?">
+											<answer useranswer="yes">
+												<question text="Does it often come in dark colors?">
+													<answer useranswer="yes">
+														<thing>EyeLiner</thing>
+													</answer>
+													<answer useranswer="no">
+														<thing>Eye Shadow</thing>
+													</answer>
+												</question>
+											</answer>
+											<answer useranswer="no">
+												<question text="Is it for Brows?">
+													<answer useranswer="yes">
+														<thing>Brow Pencils</thing>
+													</answer>
+													<answer useranswer="no">
+														<thing></thing>
+													</answer>
+												</question>
+											</answer>
+										</question>
+									</answer>
+								</question>
+							</answer>
+						</question>
+					</answer>
+				</question>
+			</answer>
+		</question>	
+	</answer>
+	<answer useranswer="no">
+		<question text="Is it used for your hands?">
+			<answer useranswer="yes">
+				<question text="Does it have color?">
+					<answer useranswer = "yes">
+						<thing>Nail Polish</thing>
+					</answer>
+					<answer useranswer = "no">
+						<thing>HandCream</thing>
+					</answer>
+				</question>
+			</answer>
+			<answer useranswer="no">
+				<question text="Is it used for hair?">
+					<answer useranswer="yes">
+						<thing>HairSpray</thing>
+					</answer>
+					<answer useranswer="no">
+						<thing>Perfume</thing>
+					</answer>
+				</question>
+			</answer>
+		</question>	
+	</answer>
+</question>
